@@ -103,18 +103,6 @@ class BasePage:
         print("Element is clickable")
         return lambda driver: element.is_enabled() and element.is_displayed()
 
-    def _drag_and_drop(self):
-        """
-        Placeholder for drag and drop functionality.
-        """
-        pass
-
-    def _press_and_hold(self):
-        """
-        Placeholder for press and hold functionality.
-        """
-        pass
-
     def _get_element_text(self, webElement):
         """
         Get the text of an element.
@@ -134,8 +122,3 @@ class BasePage:
         element = self._find_element(locator)
         return element.text
 
-    def _double_click(self):
-        """
-        Placeholder for double-click functionality.
-        """
-        pass
