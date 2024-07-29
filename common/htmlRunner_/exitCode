@@ -1,0 +1,12 @@
+0- Success
+        If everything went well, exit with a success cod
+1-Element not Found Error
+        Can not find element during 10 seconds Element Not visible Error
+
+2-Element not visible
+       The element is not visible and the program does not continue.
+3-File not found.
+     Exit code indicating file not found
+
+4- General or unspecified error.
+    Exit code 4 indicating a general or unspecified error
